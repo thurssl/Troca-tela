@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/purple_700"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTela2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="Você está na tela 2"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp" />
+        
+    <Button
+        android:id="@+id/btTelaP"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtTela2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Ir para tela Principal"
+        android:textColor="@color/red"
+        android:textSize="40sp" />
+
+</RelativeLayout>
